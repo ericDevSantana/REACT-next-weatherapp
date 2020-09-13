@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CloudIcon from '@material-ui/icons/Cloud';
+import WeatherIcon from './WeatherIcon';
 
 ReactDOM.render(
-  <h1><CloudIcon /> Weather Forecast</h1>,
-  document.getElementById('root')
-);
+    <div>
+    <h1>
+        <WeatherIcon name="cloud" fontSize="Large" color="disabled"/> Weather Forecast</h1>
+
+</div>, document.getElementById('root'));
