@@ -1,8 +1,8 @@
 # Next Weather App - REACT
 
-This project was created with [OpenWeather API](https://openweathermap.org/).
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created with:</br>
+[OpenWeather API](https://openweathermap.org/)</br>
+[Create React App](https://github.com/facebook/create-react-app)
 
 ## Available Scripts
 
