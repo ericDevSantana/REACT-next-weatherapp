@@ -5,7 +5,7 @@ import CloudOffIcon from '@material-ui/icons/CloudOff';
 function WeatherIcon(props) {
     switch (props.name) {
         case "cloud":
-            return <CloudIcon fontSize={props.fontSize} color={props.color}/>
+            return <CloudIcon style={{ fontSize: 40 }}color={props.color}/>
         default:
             return <CloudOffIcon />
     }

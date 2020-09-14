@@ -5,3 +5,12 @@ html {
 body {
     padding: 7% 15%;
 }
+
+.rounder {
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.card-text {
+    text-align: right;
+}

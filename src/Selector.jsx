@@ -2,9 +2,9 @@ import React from "react";
 
 function Selector() {
     return (
-        <div class="dropdown">
+        <div className="dropdown">
             <button
-                class="btn btn-primary dropdown-toggle"
+                className="btn btn-primary dropdown-toggle"
                 type="button"
                 id="dropdownMenuButton"
                 data-toggle="dropdown"
@@ -12,10 +12,10 @@ function Selector() {
                 aria-expanded="false">
                 Choose a city
             </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">London</a>
-                <a class="dropdown-item" href="#">Goiania</a>
-                <a class="dropdown-item" href="#">Nevada</a>
+            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a className="dropdown-item" href="#">London</a>
+                <a className="dropdown-item" href="#">Goiania</a>
+                <a className="dropdown-item" href="#">Nevada</a>
             </div>
         </div>
     )
