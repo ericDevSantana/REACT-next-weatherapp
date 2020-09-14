@@ -1,3 +1,7 @@
 html {
     font-family: "Exo", "Poppins", sans-serif;
 }
+
+body {
+    padding: 7% 15%;
+}
