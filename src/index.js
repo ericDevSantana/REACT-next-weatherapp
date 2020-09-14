@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import WeatherIcon from './WeatherIcon';
+import App from "./server";
 
 ReactDOM.render(
     <div>
-    <h1>
-            <WeatherIcon name="cloud" fontSize="large" color="disabled" />  Weather App</h1>
-
+        <App />
 </div>, document.getElementById('root'));
