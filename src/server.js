@@ -4,7 +4,8 @@ function App() {
     const [data,
         setData] = useState({
             name: "",
-            temp: "",
+            tempCelsius: "",
+            tempFarenheit: "",
             weather: ""
         });
 
@@ -15,7 +16,8 @@ function App() {
                 // setData(Math.floor(data.main.temp - 273))
                 setData({
                     name: data.name,
-                    temp: Math.floor(data.main.temp - 273),
+                    tempCelsius: Math.floor(data.main.temp - 273),
+                    tempFarenheit: Math.floor(data.main.temp - 273)*(9/5) + 32,
                     weather: data.weather[0].main
                 })
             });

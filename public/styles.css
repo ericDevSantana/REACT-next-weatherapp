@@ -13,3 +13,11 @@ body {
 .card-text {
     text-align: right;
 }
+
+.floatR {
+    float: right;
+}
+
+.floatL {
+    float: left;
+}

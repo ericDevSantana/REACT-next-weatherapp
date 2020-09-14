@@ -20,7 +20,8 @@ function Card(props) {
             </div>
             <div className="card-body">
                 <h5 className="card-title">Temperature</h5>
-                <h1 className="card-text">{data.temp} °C</h1>
+                <h1 className="card-text">{data.tempCelsius} °C</h1>
+                <h6 className="card-text floatR">{data.tempFarenheit} °F</h6>
             </div>
         </div>
     )
