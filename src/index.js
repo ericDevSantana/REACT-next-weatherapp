@@ -6,6 +6,6 @@ import Card from "./Card";
 
 ReactDOM.render(
     <div>
-        <Selector />
+        {/* <Selector /> */}
         <Card />
 </div>, document.getElementById('root'));
