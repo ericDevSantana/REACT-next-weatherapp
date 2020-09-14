@@ -4,7 +4,9 @@ import App from "./server";
 
 function Card(props) {
 
-    const name = App();
+    const data = App();
+    console.log(data.weather);
+
     return (
         <div
             className="card bg-dark text-white mb-3 rounder"
@@ -14,11 +16,11 @@ function Card(props) {
             <div className="card-header">
                 <h1 style={{
                     float: "left"
-                }}>{props.city}</h1><WeatherIcon name={props.weather} color="primary"/>
+                }}>{data.name}</h1><WeatherIcon name={data.weather} color="primary"/>
             </div>
             <div className="card-body">
                 <h5 className="card-title">Temperature</h5>
-                <h1 className="card-text">{name} °C</h1>
+                <h1 className="card-text">{data.temp} °C</h1>
             </div>
         </div>
     )
