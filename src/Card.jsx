@@ -10,7 +10,7 @@ function Card() {
             width: "18rem"
         }}>
             <div className="card-header">
-                <h1>London <WeatherIcon name="cloud" color="primary" /></h1>
+                <h1>London</h1><WeatherIcon name="cloud" color="primary" />
             </div>
             <div className="card-body">
                 <h5 className="card-title">Temperature</h5>
