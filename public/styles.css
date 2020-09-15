@@ -7,17 +7,9 @@ body {
 }
 
 .rounder {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .card-text {
     text-align: right;
-}
-
-.floatR {
-    float: right;
-}
-
-.floatL {
-    float: left;
 }
