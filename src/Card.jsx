@@ -4,14 +4,13 @@ import App from "./server";
 
 function Card(props) {
 
-    const data = App();
-    console.log(data.weather);
+    const data = App(props.name);
 
     return (
         <div
             className="card bg-dark text-white mb-3 rounder"
             style={{
-            width: "18rem"
+            width: "25rem"
         }}>
             <div className="card-header">
                 <h1 style={{

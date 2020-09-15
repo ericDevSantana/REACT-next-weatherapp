@@ -11,6 +11,7 @@ function WeatherIcon(props) {
         case "Clear":
             return <WbSunnyIcon style={{ fontSize: 60, float: "right" }} color={props.color} />
         case "Rain":
+        case "Haze":
             return <GrainIcon style={{ fontSize: 60, float: "right" }} color={props.color} />
         default:
             return <CloudOffIcon />
