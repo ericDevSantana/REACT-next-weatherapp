@@ -1,4 +1,4 @@
-# Next Weather App - REACT
+# Weather App - REACT
 
 ![alt-text](https://github.com/ericDevSantana/REACT-next-weatherapp/blob/master/nextWeather.png)
 
