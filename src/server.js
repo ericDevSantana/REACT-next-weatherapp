@@ -24,7 +24,7 @@ function App(city) {
             .catch(error => {
                 console.log("Error: " + error);
             });
-    }, []);
+    });
 
     return data;
 }
