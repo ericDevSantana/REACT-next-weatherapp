@@ -14,6 +14,7 @@ function App(city) {
         fetch("http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=" + process.env.REACT_APP_API_KEY, {})
             .then(response => response.json())
             .then(data => {
+
                 setData({
                     name: data.name,
                     tempCelsius: Math.floor(data.main.temp - 273),
@@ -24,7 +25,7 @@ function App(city) {
             .catch(error => {
                 console.log("Error: " + error);
             });
-    });
+    }, []);
 
     return data;
 }
