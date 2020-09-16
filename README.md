@@ -1,10 +1,11 @@
-# Next Weather App - REACT
+# Weather App - REACT
 
 ![alt-text](https://github.com/ericDevSantana/REACT-next-weatherapp/blob/master/nextWeather.png)
 
 This project was created with:</br>
 [OpenWeather API](https://openweathermap.org/)</br>
-[Create React App](https://github.com/facebook/create-react-app)
+[Create React App](https://github.com/facebook/create-react-app)</br>
+[Material-UI](https://material-ui.com/)
 
 ## Available Scripts
 
